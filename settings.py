@@ -1,0 +1,20 @@
+import pygame as pg
+
+FPS = 60
+FIELD_COLOR = (48, 39, 32)
+
+TILE_SIZE = 50
+FIELD_SIZE = FIELD_W , FIELD_H = 10 , 20
+"""
+oznacza to samo co:
+FIELD_W = 10
+FIELD_H = 20
+FIELD_SIZE = (FIELD_W, FIELD_H) - krotka
+"""
+FIELD_RES = FIELD_W * TILE_SIZE, FIELD_H * TILE_SIZE
+
+"""
+FIELD_RES_X = FIELD_W * TILE_SIZE
+FIELD_RES_Y = FIELD_H * TILE_SIZE
+FIELD_RES = (FIELD_RES_X, FIELD_RES_Y)
+"""
