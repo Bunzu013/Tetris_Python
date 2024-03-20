@@ -4,7 +4,7 @@ FPS = 60
 FIELD_COLOR = (48, 39, 32)
 
 TILE_SIZE = 50
-FIELD_SIZE = FIELD_W , FIELD_H = 10 , 20
+FIELD_SIZE = FIELD_W , FIELD_H = 10 , 15
 """
 oznacza to samo co:
 FIELD_W = 10
