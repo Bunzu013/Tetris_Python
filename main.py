@@ -29,7 +29,7 @@ class App:
 
     def run(self):
         while True:
-            self.chck_events()
+            self.check_events()
             self.update()
             self.draw()
 
