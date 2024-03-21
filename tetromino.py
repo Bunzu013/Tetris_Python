@@ -32,4 +32,3 @@ class Tetromino:
 
     def update(self):
         self.move(direction='down')
-        pg.time.wait(200)
