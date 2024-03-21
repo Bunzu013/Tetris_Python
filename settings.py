@@ -1,5 +1,7 @@
 import pygame as pg
 
+vec = pg.math.Vector2
+
 FPS = 60
 FIELD_COLOR = (48, 39, 32)
 
@@ -18,7 +20,7 @@ FIELD_RES_X = FIELD_W * TILE_SIZE
 FIELD_RES_Y = FIELD_H * TILE_SIZE
 FIELD_RES = (FIELD_RES_X, FIELD_RES_Y)
 """
-
+INIT_POS_OFFSET = vec(FIELD_SIZE) // 2
 
 TETROMINOES = {
     'T': [(0, 0), (-1, 0), (1, 0), (0, -1)],
